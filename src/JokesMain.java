@@ -40,6 +40,7 @@ public class JokesMain {
 			if(i%2 == 1 && i<10){
 			LinkText newJoke = new LinkText(joke);
 			System.out.println(newJoke.getText());
+			System.out.println("\n\n");
 			}
 			i++;
 		}
